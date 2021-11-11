@@ -16,6 +16,22 @@ Nonetheless, the process of manually annotating images is a tedious and consumin
 
 ## Methods 
 
+We found the manual annotation via CVAT to be very unergonomic and wasteful on our sample dataset. 
+For every video, the borders of the subject doesn't change, only the height of the water.
+To remedy this, we developed an alternate way to annotate using a stylus. 
+
+We first draw the boundary of the subject (in blue) as well as a reference point (in red) to flood fill from.
+![](data/fast_annotation_1.png)
+
+
+Then for each frame of the video, we just need to annotate the water level (in blue), making annotation much faster.
+![](data/fast_annotation_2.png)
+
+We then use the script [flood_fill_helper.ipynb](src/flood_fill_helper.ipynb) to unionize the water level annotation 
+and boundary, then flood fill from the red reference point up to the bounds of the subject and water level to create our ground truth masks.
+![](data/fast_annotation_mask.png)
+
+
 ## Dataset
 
 ### Real & Synthetic Images 
