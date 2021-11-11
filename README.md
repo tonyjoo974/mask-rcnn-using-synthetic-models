@@ -16,7 +16,13 @@ Nonetheless, the process of manually annotating images is a tedious and consumin
 
 ## Methods 
 
-### Real-time measurements 
+## Dataset
+
+### Real Images 
+
+### Syntehtic Images 
+
+#### Real-time Measurements 
 
 ![alt-text](https://github.com/tonyjoo974/mask-rcnn-using-synthetic-models/blob/master/data/combined_gif12.gif)
 
