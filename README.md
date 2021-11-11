@@ -22,6 +22,8 @@ Nonetheless, the process of manually annotating images is a tedious and consumin
 
 ![alt-text](https://github.com/tonyjoo974/mask-rcnn-using-synthetic-models/blob/master/data/prog_rep_img1.tif)
 
+![Test Image](https://github.com/tonyjoo974/mask-rcnn-using-synthetic-models/blob/master/data/prog_rep_img1.tif)
+
 #### Real-time Measurements 
 
 ![alt-text](https://github.com/tonyjoo974/mask-rcnn-using-synthetic-models/blob/master/data/combined_gif12.gif)
