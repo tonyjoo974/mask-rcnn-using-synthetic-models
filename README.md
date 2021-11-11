@@ -2,9 +2,9 @@
 
 ## Introduction 
 
-## Pre-analysis
+### Pre-analysis (to be completed)
 ![alt-text](https://github.com/tonyjoo974/mask-rcnn-using-synthetic-models/blob/master/data/pre.gif)
 
-## Post-analysis
+### Post-analysis (to be completed)
 
 ![alt-text](https://github.com/tonyjoo974/mask-rcnn-using-synthetic-models/blob/master/data/post.gif)
