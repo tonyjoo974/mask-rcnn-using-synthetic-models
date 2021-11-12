@@ -49,6 +49,8 @@ Our original plan was to leverage Rhinoceros software for creating synthetic ima
 
 ## Dataset
 
+Within the past 30 days, we have manually annotated 3604 real images (i.e., 901 images by each team member). These images are frames from video recordings of water absorptions by real cement pastes. Fig. 1 is an example of the image and its annotation. Specifically, as shown in Fig. 1, attempts have been made to generalize our model by including images that have both specular (left column) and diffuse (right column) reflections. Similarly we have created 810 synthetic images and annotations, and again, it was tried to design both specular and diffuse to better generalize our model, and to make it less sensitive to various illumination conditions. 
+
 ### Real & Synthetic Images 
 
 ![alt-text](https://github.com/tonyjoo974/mask-rcnn-using-synthetic-models/blob/master/data/prog_rep_img1_u.jpg)
