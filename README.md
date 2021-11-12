@@ -11,7 +11,7 @@
 
 ### Current member roles and collaboration strategy
 
-[Tony Joo](https://github.com/tonyjoo974) and [Ahmed Ibrahim](https://github.com/Eng-Hercules): Manually annotating natural/ real images (images 001a.jpg to 901a.jpg, and 001b.jpg to 901b.jpg, respectively, which can be accessed from the real.zip dataset) , optimizing the employed Mask RCNN algorithm to be compatible with our dataset, and editing results on Github.
+[Tony Joo](https://github.com/tonyjoo974) and [Ahmed Ibrahim](https://github.com/Eng-Hercules): Manually annotating natural/ real images (images 001a.jpg to 901a.jpg, and 001b.jpg to 901b.jpg, respectively, which can be accessed from the [real.zip](https://github.com/tonyjoo974/mask-rcnn-using-synthetic-models/blob/master/data/real.zip) dataset) , optimizing the employed Mask RCNN algorithm to be compatible with our dataset, and editing results on Github.
 
 [Jordan Wu](https://github.com/jordanwu97):  Manually annotating natural/ real images (images 001c.jpg to 901c.jpg, which can be accessed in real.zip dataset), optimizing the employed Mask RCNN algorithm to be compatible with our dataset, and developing an algorithm that replaces CVAT image annotation tool using flood_fill_helper.ipynb. 
 
