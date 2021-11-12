@@ -51,7 +51,9 @@ Our original plan was to leverage Rhinoceros software for creating synthetic ima
 
 Within the past 30 days, we have manually annotated 3604 real images (i.e., 901 images by each team member). These images are frames from video recordings of water absorptions by real cement pastes. Fig. 1 is an example of the image and its annotation. Specifically, as shown in Fig. 1, attempts have been made to generalize our model by including images that have both specular (left column) and diffuse (right column) reflections. Similarly we have created 810 synthetic images and annotations, and again, it was tried to design both specular and diffuse to better generalize our model, and to make it less sensitive to various illumination conditions. 
 
-### Real & Synthetic Images 
+### Initial Results 
+
+Considering the figure below it can be realized that the employed algorithm (trained based on synthetic data) is capable of marking the water level, even if it is applied on a video. Specifically, this figure shows the robustness of the employed method that can mark the variation of water level with time. However, the subplots shown in Fig. 2 represent an easy dataset (without specularities) and as a result it is of interest to determine the performance of this method for analyzing difficult and complex specular images.  
 
 ![alt-text](https://github.com/tonyjoo974/mask-rcnn-using-synthetic-models/blob/master/data/prog_rep_img1_u.jpg)
 
