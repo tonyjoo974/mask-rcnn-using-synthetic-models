@@ -1,5 +1,14 @@
 # mask-rcnn-using-synthetic-data
 
+## Project Title: Synthetic Data Generation for Mask R-CNN to Estimate Water Absorption in Cement Pastes
+
+### Group Members:
+
+1) Tony Joo 
+2) Ahmed Ibrahim
+3) Jordan Wu
+4) Hossein Kabir
+
 ## Abstract
 The durability of construction materials is mainly controlled by the rate of absorption of water by cement pastes. Therefore, it is necessary to find a way to accurately measure and estimate the water absorption as a function of time. However, the traditional approach via ASTM C1585 standard test method makes it not only difficult to estimate but also fails to provide accurate results as it can only estimate by weighing the sample at specific time intervals. 
 
