@@ -49,23 +49,22 @@ Our original plan was to leverage Rhinoceros software for creating synthetic ima
 
 ## Dataset
 
-Within the past 30 days, we have manually annotated 3604 real images (i.e., 901 images by each team member). These images are frames from video recordings of water absorptions by real cement pastes. Fig. 1 is an example of the image and its annotation. Specifically, as shown in Fig. 1, attempts have been made to generalize our model by including images that have both specular (left column) and diffuse (right column) reflections. Similarly we have created 810 synthetic images and annotations, and again, it was tried to design both specular and diffuse to better generalize our model, and to make it less sensitive to various illumination conditions. 
+Within the past 30 days, we have manually annotated 3604 real images (i.e., 901 images by each team member). These images are frames from video recordings of water absorptions by real cement pastes. Fig. 1 is an example of the image and its annotation. Specifically, as shown in the figure below, attempts have been made to generalize our model by including images that have both specular (left column) and diffuse (right column) reflections. Similarly we have created 810 synthetic images and annotations, and again, it was tried to design both specular and diffuse to better generalize our model, and to make it less sensitive to various illumination conditions. 
+![alt-text](https://github.com/tonyjoo974/mask-rcnn-using-synthetic-models/blob/master/data/prog_rep_img1_u.jpg)
 
 ### Initial Results 
 
-Considering the figure below it can be realized that the employed algorithm (trained based on synthetic data) is capable of marking the water level, even if it is applied on a video. Specifically, this figure shows the robustness of the employed method that can mark the variation of water level with time. However, the subplots shown in Fig. 2 represent an easy dataset (without specularities) and as a result it is of interest to determine the performance of this method for analyzing difficult and complex specular images.  
-
-![alt-text](https://github.com/tonyjoo974/mask-rcnn-using-synthetic-models/blob/master/data/prog_rep_img1_u.jpg)
-
-#### Real-time Measurements 
-
-![alt-text](https://github.com/tonyjoo974/mask-rcnn-using-synthetic-models/blob/master/data/combined_gif12.gif)
+Considering the figure below it can be realized that the employed algorithm (trained based on synthetic data) is capable of marking the water level, even if it is applied on a video. Specifically, this figure shows the robustness of the employed method that can mark the variation of water level with time. However, the subplots shown in the figure below represent an easy dataset (without specularities) and as a result it is of interest to determine the performance of this method for analyzing difficult and complex specular images.  
 
 ![alt-text](https://github.com/tonyjoo974/mask-rcnn-using-synthetic-models/blob/master/data/prog_rep_img2.jpg)
+
+![alt-text](https://github.com/tonyjoo974/mask-rcnn-using-synthetic-models/blob/master/data/combined_gif12.gif)
 
 ### Applying Mask RCNN on Difficult Image Data
 
 ![alt-text](https://github.com/tonyjoo974/mask-rcnn-using-synthetic-models/blob/master/data/prog_rep_img3.jpg)
 
 ## Discussion and Conclusions 
+
+So far we have realized that our model can accurately mark the region of interest (water level) even on complex images, but we still need to model more specular synthetic images to further improve the accuracy of our model. Furthermore, we also realized that our model gives incorrect estimations whenever the water level is high. As a result, in the remaining time (next two weeks) we will dedicate our time to create models which have relatively high water levels. Besides, if time permits, we want to possibly take some time to investigate other off-the-shelf segmentation models that are less complex compared to Mask RCNN, such as U-Net. We would also appreciate your comments and suggestions, which will surely help us improve further the quality of our research.
 
