@@ -24,7 +24,11 @@ As seen from the brief analysis of Mask R-CNN above, we believe that it is the m
 
 ## Methods 
 
-We found the manual annotation via CVAT to be very unergonomic and wasteful on our sample dataset. 
+### Manual Annotation of Real Images 
+
+We realized that manual annotation of labels via CVAT is very unergonomic and time-consuming for our sample dataset. Therefore, we utilized the fact that for every frame of each specimen the borders of the subject are constant, and that only the height of the water varies. As a result, we developed an algorithm to annotate the dataset that reads the data from the stylus of any tablet (e.g., Ipad) to facilitate image annotation.
+
+We also found the manual annotation via CVAT to be very unergonomic and wasteful on our sample dataset. 
 For every video, the borders of the subject doesn't change, only the height of the water.
 To remedy this, we developed an alternate way to annotate using a stylus. 
 
@@ -39,6 +43,9 @@ We then use the script [flood_fill_helper.ipynb](src/flood_fill_helper.ipynb) to
 and boundary, then flood fill from the red reference point up to the bounds of the subject and water level to create our ground truth masks.
 ![](data/fast_annotation_mask.png)
 
+### Synthetic Generation of Images
+
+Our original plan was to leverage Rhinoceros software for creating synthetic image dataset; however, since it is not an open source software, we decided to simply use Microsoft Powerpoint to easily and rapidly create synthetic images as well as their corresponding masks. In the next step we manipulated (binarized, renamed, and resized) and created our dataset using binarizing_and_resizing_images.py such that it would be compatible with our Mask-RCNN model. Again, a  detailed explanation on how we created the synthetic image dataset is available on our Github.
 
 ## Dataset
 
