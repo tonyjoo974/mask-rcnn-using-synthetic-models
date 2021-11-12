@@ -1,6 +1,8 @@
 # mask-rcnn-using-synthetic-data
 
-## Project Title: Synthetic Data Generation for Mask R-CNN to Estimate Water Absorption in Cement Pastes
+## Project Title: 
+
+### "Synthetic Data Generation for Mask R-CNN to Estimate Water Absorption in Cement Pastes"
 
 ### Group Members:
 
