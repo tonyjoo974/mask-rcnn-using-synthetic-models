@@ -52,8 +52,9 @@ and boundary, then flood fill from the red reference point up to the bounds of t
 
 ![alt-text](https://github.com/tonyjoo974/mask-rcnn-using-synthetic-models/blob/master/data/prog_rep_img2.jpg)
 
+### Applying Mask RCNN on Difficult Image Data
 
-## Discussion 
+![alt-text](https://github.com/tonyjoo974/mask-rcnn-using-synthetic-models/blob/master/data/prog_rep_img3.jpg)
 
-## Conclusions
+## Discussion and Conclusions 
 
