@@ -32,11 +32,7 @@ Mask R-CNN is built upon Faster R-CNN, which proposes a method for real-time obj
 
 We realized that manual annotation of labels via CVAT is very unergonomic and time-consuming for our sample dataset. Therefore, we utilized the fact that for every frame of each specimen the borders of the subject are constant, and that only the height of the water varies. As a result, we developed an algorithm to annotate the dataset that reads the data from the stylus of any tablet (e.g., Ipad) to facilitate image annotation.
 
-We also found the manual annotation via CVAT to be very unergonomic and wasteful on our sample dataset. 
-For every video, the borders of the subject doesn't change, only the height of the water.
-To remedy this, we developed an alternate way to annotate using a stylus. 
-
-We first draw the boundary of the subject (in blue) as well as a reference point (in red) to flood fill from.
+To address this issue, we first draw the boundary of the subject (in blue) as well as a reference point (in red) to flood fill from.
 ![](data/fast_annotation_1.png)
 
 
