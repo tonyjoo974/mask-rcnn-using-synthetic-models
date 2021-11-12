@@ -6,7 +6,7 @@
 
 1) [Tony Joo](https://github.com/tonyjoo974)
 2) [Ahmed Ibrahim](https://github.com/Eng-Hercules) 
-3) [Jordan Wu](https://github.com/jordanwu97s) 
+3) [Jordan Wu](https://github.com/jordanwu97) 
 4) [Hossein Kabir](https://github.com/91105206a) 
 
 ## Abstract
