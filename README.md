@@ -65,6 +65,9 @@ and boundary, then flood fill from the red reference point up to the bounds of t
 ### Synthetic Generation of Images
 
 Our original plan was to leverage Rhinoceros software for creating synthetic image dataset; however, since it is not an open source software, we decided to simply use Microsoft Powerpoint to easily and rapidly create synthetic images as well as their corresponding masks. In the next step we manipulated (binarized, renamed, and resized) and created our dataset using binarizing_and_resizing_images.py such that it would be compatible with our Mask-RCNN model. Again, a  detailed explanation on how we created the synthetic image dataset is available on our Github.
+
+Specifically, as shown in the figure below, (a) initially a blank file is created, (b) then online pictures are accessed, (c) and a random concrete surface is seected, (d) in the next step the texture is stretched to a square geometry, (e) and water level is synthetically sketched on the image and the image is exported, (f)  finally the original image is deleted and the color of the water level is turned to white and the backround is turned black to create the associate mask.
+
 ![alt-text](https://github.com/tonyjoo974/mask-rcnn-using-synthetic-models/blob/master/data/prog_rep_img4.jpg)
 
 ## Dataset
