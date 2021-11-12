@@ -19,7 +19,7 @@ One of the key differences of Mask R-CNN from other R-CNN is that it uses Featur
 
 Another key difference is that it maintains spatial structure of masks by introducing pixel-to-pixel correspondence when finding RoIs because RoIPool that was used in Faster R-CNN had to quantize a floating-number RoI to the discrete integer number of the feature map dimension, which introduced misalignments between the RoI and the extracted features. After predicting m x m mask from each RoI using an Fully-Convolutional Network, RoIAlign computes the value of each sampling point in each of 2 x 2 bins by bilinear interpolation from the nearby grid points on the feature map and this removes the quantization of the stride. Together with FCN and RoIAlign, Mask R-CNN is able to achieve pixel-to-pixel behavior, preserving spatial orientation of features with zero loss of data.
 
-As seen from the brief analysis of Mask R-CNN above, we believe that it is a most suitable choice for our purpose in analyzing image data to identify water level from the cement paste specimens as we are estimating pixel-level water absorption.
+As seen from the brief analysis of Mask R-CNN above, we believe that it is the most suitable choice for our purpose in analyzing image data to identify water level from the cement paste specimens as we are estimating pixel-level water absorption.
 
 
 ## Methods 
