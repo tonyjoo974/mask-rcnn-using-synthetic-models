@@ -1,7 +1,7 @@
 # mask-rcnn-using-synthetic-data
 
 ## Abstract
-The durability of construction materials is mainly controlled by the rate of absorption of water by cement pastes. Therefore, it is necessary to find a way to accurately measure and estimate the water absorption as a function of time. However, the traditional approach via ASTM C1585 standard test method makes it not only difficult to estimate but also fails to provide accurate results as it can only estimate by weighing the sample at specific time intervals.
+The durability of construction materials is mainly controlled by the rate of absorption of water by cement pastes. Therefore, it is necessary to find a way to accurately measure and estimate the water absorption as a function of time. However, the traditional approach via ASTM C1585 standard test method makes it not only difficult to estimate but also fails to provide accurate results as it can only estimate by weighing the sample at specific time intervals. 
 
 As a result, we present a new approach to water absorption estimation by leveraging image segmentation with Mask R-CNN to effectively estimate the water absorption of cement pastes accurately. In addition, we study a new approach to image segmentation. Prior work on image segmentation mainly uses manually annotated natural images as training data. Instead, we seek to find whether synthetic models can partially (i.e. combination of real and synthetic image dataset) or fully replace natural images for an image segmentation task for measuring water absorption in cement pastes. The automatically generated synthetic images can significantly reduce the overhead of manual annotation and provide more accurate boundaries to be fed into Mask R-CNN.
 
