@@ -79,7 +79,7 @@ Considering the figure below it can be realized that the employed algorithm (tra
 
 ![alt-text](https://github.com/tonyjoo974/mask-rcnn-using-synthetic-models/blob/master/data/combined_gif12.gif)
 
-## Applying Mask RCNN on Difficult Image Data
+## Applying Mask RCNN to Difficult Image Data
 
 As it was previously observed, the present Mask RCNN model (trained on synthetic dataset) is effective for analysis of simple images. However, as shown in Fig. 3a, we realize that our model can analyze complex images if the synthetic and real image datasets are merged. As a result, followed by merging the two synthetic and real dataset, we realized that our model is more accurate for analyzing difficult images, see the figure below. However, our model still fails to delineate the region of interest for super difficult images (last row of the figure) specifically if the water level is high, which is a limitation of our method, but we will try to address it in the next two weeks. 
 
